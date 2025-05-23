@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lawfirm-website
+    env: python
+    buildCommand: ""
+    startCommand: "python server.py"
